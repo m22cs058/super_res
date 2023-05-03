@@ -69,7 +69,7 @@ class Generator(nn.Module):
     return (torch.tanh(block8) + 1) / 2
 
 # Load the pre-trained model
-device = "cpu" #torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 netG = Generator(4)
 netG.load_state_dict(torch.load('netG2_epoch1000.pt', map_location=device))
 netG.to(device)
@@ -92,11 +92,10 @@ def app():
     if file is not None:
         # Read the uploaded image
         img = Image.open(file).convert('RGB')
-        #img = img.resize(img.size[0]//4, img.size[1]//4)
+        img = img.resize((img.size[0]//2, img.size[1]//2))
         
         # Display the original image
         st.image(img, caption="Original Image", use_column_width=True)
-        
         # Preprocess the image
         img = transform(img).unsqueeze(0)
         img = img.to(device)
