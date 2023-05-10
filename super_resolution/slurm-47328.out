@@ -1,0 +1,810 @@
+/scratch/apps/anaconda3/lib/python3.9/site-packages/torchvision/transforms/transforms.py:332: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  warnings.warn(
+/scratch/apps/anaconda3/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/scratch/apps/anaconda3/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=VGG16_Weights.IMAGENET1K_V1`. You can also use `weights=VGG16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+  0%|          | 0/100 [00:00<?, ?it/s][1/1] Loss_D: 1.0002 Loss_G: 0.0809:   0%|          | 0/100 [00:03<?, ?it/s][1/1] Loss_D: 1.0002 Loss_G: 0.0809:   1%|          | 1/100 [00:03<06:28,  3.92s/it][1/1] Loss_D: 0.9820 Loss_G: 0.0931:   1%|          | 1/100 [00:04<06:28,  3.92s/it][1/1] Loss_D: 0.9820 Loss_G: 0.0931:   2%|▏         | 2/100 [00:04<02:46,  1.70s/it][1/1] Loss_D: 0.9710 Loss_G: 0.0923:   2%|▏         | 2/100 [00:04<02:46,  1.70s/it][1/1] Loss_D: 0.9710 Loss_G: 0.0923:   3%|▎         | 3/100 [00:04<01:35,  1.01it/s][1/1] Loss_D: 0.9568 Loss_G: 0.0818:   3%|▎         | 3/100 [00:04<01:35,  1.01it/s][1/1] Loss_D: 0.9568 Loss_G: 0.0818:   4%|▍         | 4/100 [00:04<01:02,  1.54it/s][1/1] Loss_D: 0.9457 Loss_G: 0.0840:   4%|▍         | 4/100 [00:04<01:02,  1.54it/s][1/1] Loss_D: 0.9457 Loss_G: 0.0840:   5%|▌         | 5/100 [00:04<00:44,  2.15it/s][1/1] Loss_D: 0.9270 Loss_G: 0.0778:   5%|▌         | 5/100 [00:04<00:44,  2.15it/s][1/1] Loss_D: 0.9270 Loss_G: 0.0778:   6%|▌         | 6/100 [00:04<00:33,  2.83it/s][1/1] Loss_D: 0.9159 Loss_G: 0.0730:   6%|▌         | 6/100 [00:04<00:33,  2.83it/s][1/1] Loss_D: 0.9159 Loss_G: 0.0730:   7%|▋         | 7/100 [00:04<00:26,  3.57it/s][1/1] Loss_D: 0.9145 Loss_G: 0.0677:   7%|▋         | 7/100 [00:04<00:26,  3.57it/s][1/1] Loss_D: 0.9145 Loss_G: 0.0677:   8%|▊         | 8/100 [00:04<00:21,  4.30it/s][1/1] Loss_D: 0.9107 Loss_G: 0.0645:   8%|▊         | 8/100 [00:05<00:21,  4.30it/s][1/1] Loss_D: 0.9107 Loss_G: 0.0645:   9%|▉         | 9/100 [00:05<00:18,  4.97it/s][1/1] Loss_D: 0.9099 Loss_G: 0.0606:   9%|▉         | 9/100 [00:05<00:18,  4.97it/s][1/1] Loss_D: 0.9099 Loss_G: 0.0606:  10%|█         | 10/100 [00:05<00:16,  5.57it/s][1/1] Loss_D: 0.9051 Loss_G: 0.0589:  10%|█         | 10/100 [00:05<00:16,  5.57it/s][1/1] Loss_D: 0.9051 Loss_G: 0.0589:  11%|█         | 11/100 [00:05<00:14,  6.06it/s][1/1] Loss_D: 0.9023 Loss_G: 0.0557:  11%|█         | 11/100 [00:05<00:14,  6.06it/s][1/1] Loss_D: 0.9023 Loss_G: 0.0557:  12%|█▏        | 12/100 [00:05<00:13,  6.47it/s][1/1] Loss_D: 0.8918 Loss_G: 0.0544:  12%|█▏        | 12/100 [00:05<00:13,  6.47it/s][1/1] Loss_D: 0.8918 Loss_G: 0.0544:  13%|█▎        | 13/100 [00:05<00:12,  6.71it/s][1/1] Loss_D: 0.8854 Loss_G: 0.0521:  13%|█▎        | 13/100 [00:05<00:12,  6.71it/s][1/1] Loss_D: 0.8854 Loss_G: 0.0521:  14%|█▍        | 14/100 [00:05<00:12,  6.92it/s][1/1] Loss_D: 0.8787 Loss_G: 0.0505:  14%|█▍        | 14/100 [00:05<00:12,  6.92it/s][1/1] Loss_D: 0.8787 Loss_G: 0.0505:  15%|█▌        | 15/100 [00:05<00:12,  7.07it/s][1/1] Loss_D: 0.8713 Loss_G: 0.0491:  15%|█▌        | 15/100 [00:05<00:12,  7.07it/s][1/1] Loss_D: 0.8713 Loss_G: 0.0491:  16%|█▌        | 16/100 [00:05<00:11,  7.25it/s][1/1] Loss_D: 0.8677 Loss_G: 0.0474:  16%|█▌        | 16/100 [00:06<00:11,  7.25it/s][1/1] Loss_D: 0.8677 Loss_G: 0.0474:  17%|█▋        | 17/100 [00:06<00:11,  7.37it/s][1/1] Loss_D: 0.8677 Loss_G: 0.0461:  17%|█▋        | 17/100 [00:06<00:11,  7.37it/s][1/1] Loss_D: 0.8677 Loss_G: 0.0461:  18%|█▊        | 18/100 [00:06<00:11,  7.34it/s][1/1] Loss_D: 0.8733 Loss_G: 0.0449:  18%|█▊        | 18/100 [00:06<00:11,  7.34it/s][1/1] Loss_D: 0.8733 Loss_G: 0.0449:  19%|█▉        | 19/100 [00:06<00:10,  7.38it/s][1/1] Loss_D: 0.8794 Loss_G: 0.0438:  19%|█▉        | 19/100 [00:06<00:10,  7.38it/s][1/1] Loss_D: 0.8794 Loss_G: 0.0438:  20%|██        | 20/100 [00:06<00:10,  7.46it/s][1/1] Loss_D: 0.8773 Loss_G: 0.0427:  20%|██        | 20/100 [00:06<00:10,  7.46it/s][1/1] Loss_D: 0.8773 Loss_G: 0.0427:  21%|██        | 21/100 [00:06<00:10,  7.45it/s][1/1] Loss_D: 0.8797 Loss_G: 0.0416:  21%|██        | 21/100 [00:06<00:10,  7.45it/s][1/1] Loss_D: 0.8797 Loss_G: 0.0416:  22%|██▏       | 22/100 [00:06<00:10,  7.46it/s][1/1] Loss_D: 0.8722 Loss_G: 0.0407:  22%|██▏       | 22/100 [00:06<00:10,  7.46it/s][1/1] Loss_D: 0.8722 Loss_G: 0.0407:  23%|██▎       | 23/100 [00:06<00:10,  7.46it/s][1/1] Loss_D: 0.8703 Loss_G: 0.0405:  23%|██▎       | 23/100 [00:07<00:10,  7.46it/s][1/1] Loss_D: 0.8703 Loss_G: 0.0405:  24%|██▍       | 24/100 [00:07<00:10,  7.49it/s][1/1] Loss_D: 0.8705 Loss_G: 0.0400:  24%|██▍       | 24/100 [00:07<00:10,  7.49it/s][1/1] Loss_D: 0.8705 Loss_G: 0.0400:  25%|██▌       | 25/100 [00:07<00:10,  7.44it/s][1/1] Loss_D: 0.8713 Loss_G: 0.0394:  25%|██▌       | 25/100 [00:07<00:10,  7.44it/s][1/1] Loss_D: 0.8713 Loss_G: 0.0394:  26%|██▌       | 26/100 [00:07<00:09,  7.45it/s][1/1] Loss_D: 0.8692 Loss_G: 0.0386:  26%|██▌       | 26/100 [00:07<00:09,  7.45it/s][1/1] Loss_D: 0.8692 Loss_G: 0.0386:  27%|██▋       | 27/100 [00:07<00:09,  7.47it/s][1/1] Loss_D: 0.8669 Loss_G: 0.0381:  27%|██▋       | 27/100 [00:07<00:09,  7.47it/s][1/1] Loss_D: 0.8669 Loss_G: 0.0381:  28%|██▊       | 28/100 [00:07<00:09,  7.50it/s][1/1] Loss_D: 0.8643 Loss_G: 0.0373:  28%|██▊       | 28/100 [00:07<00:09,  7.50it/s][1/1] Loss_D: 0.8643 Loss_G: 0.0373:  29%|██▉       | 29/100 [00:07<00:09,  7.49it/s][1/1] Loss_D: 0.8583 Loss_G: 0.0373:  29%|██▉       | 29/100 [00:07<00:09,  7.49it/s][1/1] Loss_D: 0.8583 Loss_G: 0.0373:  30%|███       | 30/100 [00:07<00:09,  7.50it/s][1/1] Loss_D: 0.8528 Loss_G: 0.0365:  30%|███       | 30/100 [00:07<00:09,  7.50it/s][1/1] Loss_D: 0.8528 Loss_G: 0.0365:  31%|███       | 31/100 [00:07<00:09,  7.49it/s][1/1] Loss_D: 0.8462 Loss_G: 0.0360:  31%|███       | 31/100 [00:08<00:09,  7.49it/s][1/1] Loss_D: 0.8462 Loss_G: 0.0360:  32%|███▏      | 32/100 [00:08<00:09,  7.49it/s][1/1] Loss_D: 0.8397 Loss_G: 0.0356:  32%|███▏      | 32/100 [00:08<00:09,  7.49it/s][1/1] Loss_D: 0.8397 Loss_G: 0.0356:  33%|███▎      | 33/100 [00:08<00:08,  7.54it/s][1/1] Loss_D: 0.8356 Loss_G: 0.0352:  33%|███▎      | 33/100 [00:08<00:08,  7.54it/s][1/1] Loss_D: 0.8356 Loss_G: 0.0352:  34%|███▍      | 34/100 [00:08<00:08,  7.53it/s][1/1] Loss_D: 0.8290 Loss_G: 0.0350:  34%|███▍      | 34/100 [00:08<00:08,  7.53it/s][1/1] Loss_D: 0.8290 Loss_G: 0.0350:  35%|███▌      | 35/100 [00:08<00:08,  7.57it/s][1/1] Loss_D: 0.8195 Loss_G: 0.0355:  35%|███▌      | 35/100 [00:08<00:08,  7.57it/s][1/1] Loss_D: 0.8195 Loss_G: 0.0355:  36%|███▌      | 36/100 [00:08<00:08,  7.59it/s][1/1] Loss_D: 0.8130 Loss_G: 0.0351:  36%|███▌      | 36/100 [00:08<00:08,  7.59it/s][1/1] Loss_D: 0.8130 Loss_G: 0.0351:  37%|███▋      | 37/100 [00:08<00:09,  6.95it/s][1/1] Loss_D: 0.8043 Loss_G: 0.0346:  37%|███▋      | 37/100 [00:08<00:09,  6.95it/s][1/1] Loss_D: 0.8043 Loss_G: 0.0346:  38%|███▊      | 38/100 [00:08<00:08,  7.06it/s][1/1] Loss_D: 0.7963 Loss_G: 0.0340:  38%|███▊      | 38/100 [00:09<00:08,  7.06it/s][1/1] Loss_D: 0.7963 Loss_G: 0.0340:  39%|███▉      | 39/100 [00:09<00:08,  6.97it/s][1/1] Loss_D: 0.7870 Loss_G: 0.0338:  39%|███▉      | 39/100 [00:09<00:08,  6.97it/s][1/1] Loss_D: 0.7870 Loss_G: 0.0338:  40%|████      | 40/100 [00:09<00:08,  7.15it/s][1/1] Loss_D: 0.7787 Loss_G: 0.0333:  40%|████      | 40/100 [00:09<00:08,  7.15it/s][1/1] Loss_D: 0.7787 Loss_G: 0.0333:  41%|████      | 41/100 [00:09<00:08,  6.74it/s][1/1] Loss_D: 0.7676 Loss_G: 0.0329:  41%|████      | 41/100 [00:09<00:08,  6.74it/s][1/1] Loss_D: 0.7676 Loss_G: 0.0329:  42%|████▏     | 42/100 [00:09<00:08,  6.67it/s][1/1] Loss_D: 0.7585 Loss_G: 0.0326:  42%|████▏     | 42/100 [00:09<00:08,  6.67it/s][1/1] Loss_D: 0.7585 Loss_G: 0.0326:  43%|████▎     | 43/100 [00:09<00:08,  6.41it/s][1/1] Loss_D: 0.7515 Loss_G: 0.0324:  43%|████▎     | 43/100 [00:09<00:08,  6.41it/s][1/1] Loss_D: 0.7515 Loss_G: 0.0324:  44%|████▍     | 44/100 [00:09<00:08,  6.69it/s][1/1] Loss_D: 0.7431 Loss_G: 0.0321:  44%|████▍     | 44/100 [00:09<00:08,  6.69it/s][1/1] Loss_D: 0.7431 Loss_G: 0.0321:  45%|████▌     | 45/100 [00:09<00:07,  6.91it/s][1/1] Loss_D: 0.7342 Loss_G: 0.0319:  45%|████▌     | 45/100 [00:10<00:07,  6.91it/s][1/1] Loss_D: 0.7342 Loss_G: 0.0319:  46%|████▌     | 46/100 [00:10<00:07,  7.11it/s][1/1] Loss_D: 0.7249 Loss_G: 0.0320:  46%|████▌     | 46/100 [00:10<00:07,  7.11it/s][1/1] Loss_D: 0.7249 Loss_G: 0.0320:  47%|████▋     | 47/100 [00:10<00:07,  7.23it/s][1/1] Loss_D: 0.7185 Loss_G: 0.0319:  47%|████▋     | 47/100 [00:10<00:07,  7.23it/s][1/1] Loss_D: 0.7185 Loss_G: 0.0319:  48%|████▊     | 48/100 [00:10<00:07,  7.36it/s][1/1] Loss_D: 0.7105 Loss_G: 0.0316:  48%|████▊     | 48/100 [00:10<00:07,  7.36it/s][1/1] Loss_D: 0.7105 Loss_G: 0.0316:  49%|████▉     | 49/100 [00:10<00:08,  6.37it/s][1/1] Loss_D: 0.7032 Loss_G: 0.0312:  49%|████▉     | 49/100 [00:10<00:08,  6.37it/s][1/1] Loss_D: 0.7032 Loss_G: 0.0312:  50%|█████     | 50/100 [00:10<00:07,  6.55it/s][1/1] Loss_D: 0.6967 Loss_G: 0.0309:  50%|█████     | 50/100 [00:10<00:07,  6.55it/s][1/1] Loss_D: 0.6967 Loss_G: 0.0309:  51%|█████     | 51/100 [00:10<00:07,  6.84it/s][1/1] Loss_D: 0.6880 Loss_G: 0.0306:  51%|█████     | 51/100 [00:10<00:07,  6.84it/s][1/1] Loss_D: 0.6880 Loss_G: 0.0306:  52%|█████▏    | 52/100 [00:10<00:06,  7.09it/s][1/1] Loss_D: 0.6804 Loss_G: 0.0304:  52%|█████▏    | 52/100 [00:11<00:06,  7.09it/s][1/1] Loss_D: 0.6804 Loss_G: 0.0304:  53%|█████▎    | 53/100 [00:11<00:06,  7.24it/s][1/1] Loss_D: 0.6737 Loss_G: 0.0303:  53%|█████▎    | 53/100 [00:11<00:06,  7.24it/s][1/1] Loss_D: 0.6737 Loss_G: 0.0303:  54%|█████▍    | 54/100 [00:11<00:07,  6.56it/s][1/1] Loss_D: 0.6645 Loss_G: 0.0302:  54%|█████▍    | 54/100 [00:11<00:07,  6.56it/s][1/1] Loss_D: 0.6645 Loss_G: 0.0302:  55%|█████▌    | 55/100 [00:11<00:06,  6.85it/s][1/1] Loss_D: 0.6621 Loss_G: 0.0306:  55%|█████▌    | 55/100 [00:11<00:06,  6.85it/s][1/1] Loss_D: 0.6621 Loss_G: 0.0306:  56%|█████▌    | 56/100 [00:11<00:06,  7.10it/s][1/1] Loss_D: 0.6570 Loss_G: 0.0307:  56%|█████▌    | 56/100 [00:11<00:06,  7.10it/s][1/1] Loss_D: 0.6570 Loss_G: 0.0307:  57%|█████▋    | 57/100 [00:11<00:05,  7.22it/s][1/1] Loss_D: 0.6512 Loss_G: 0.0304:  57%|█████▋    | 57/100 [00:11<00:05,  7.22it/s][1/1] Loss_D: 0.6512 Loss_G: 0.0304:  58%|█████▊    | 58/100 [00:11<00:06,  6.34it/s][1/1] Loss_D: 0.6459 Loss_G: 0.0304:  58%|█████▊    | 58/100 [00:11<00:06,  6.34it/s][1/1] Loss_D: 0.6459 Loss_G: 0.0304:  59%|█████▉    | 59/100 [00:11<00:06,  6.69it/s][1/1] Loss_D: 0.6386 Loss_G: 0.0302:  59%|█████▉    | 59/100 [00:12<00:06,  6.69it/s][1/1] Loss_D: 0.6386 Loss_G: 0.0302:  60%|██████    | 60/100 [00:12<00:05,  6.89it/s][1/1] Loss_D: 0.6297 Loss_G: 0.0299:  60%|██████    | 60/100 [00:12<00:05,  6.89it/s][1/1] Loss_D: 0.6297 Loss_G: 0.0299:  61%|██████    | 61/100 [00:12<00:05,  6.98it/s][1/1] Loss_D: 0.6219 Loss_G: 0.0296:  61%|██████    | 61/100 [00:12<00:05,  6.98it/s][1/1] Loss_D: 0.6219 Loss_G: 0.0296:  62%|██████▏   | 62/100 [00:12<00:05,  7.08it/s][1/1] Loss_D: 0.6146 Loss_G: 0.0295:  62%|██████▏   | 62/100 [00:12<00:05,  7.08it/s][1/1] Loss_D: 0.6146 Loss_G: 0.0295:  63%|██████▎   | 63/100 [00:12<00:05,  7.25it/s][1/1] Loss_D: 0.6125 Loss_G: 0.0292:  63%|██████▎   | 63/100 [00:12<00:05,  7.25it/s][1/1] Loss_D: 0.6125 Loss_G: 0.0292:  64%|██████▍   | 64/100 [00:12<00:04,  7.40it/s][1/1] Loss_D: 0.6087 Loss_G: 0.0291:  64%|██████▍   | 64/100 [00:12<00:04,  7.40it/s][1/1] Loss_D: 0.6087 Loss_G: 0.0291:  65%|██████▌   | 65/100 [00:12<00:04,  7.47it/s][1/1] Loss_D: 0.6078 Loss_G: 0.0289:  65%|██████▌   | 65/100 [00:13<00:04,  7.47it/s][1/1] Loss_D: 0.6078 Loss_G: 0.0289:  66%|██████▌   | 66/100 [00:13<00:05,  5.68it/s][1/1] Loss_D: 0.6117 Loss_G: 0.0288:  66%|██████▌   | 66/100 [00:13<00:05,  5.68it/s][1/1] Loss_D: 0.6117 Loss_G: 0.0288:  67%|██████▋   | 67/100 [00:13<00:05,  6.18it/s][1/1] Loss_D: 0.6068 Loss_G: 0.0286:  67%|██████▋   | 67/100 [00:13<00:05,  6.18it/s][1/1] Loss_D: 0.6068 Loss_G: 0.0286:  68%|██████▊   | 68/100 [00:13<00:04,  6.58it/s][1/1] Loss_D: 0.6004 Loss_G: 0.0286:  68%|██████▊   | 68/100 [00:13<00:04,  6.58it/s][1/1] Loss_D: 0.6004 Loss_G: 0.0286:  69%|██████▉   | 69/100 [00:13<00:04,  6.82it/s][1/1] Loss_D: 0.6060 Loss_G: 0.0286:  69%|██████▉   | 69/100 [00:13<00:04,  6.82it/s][1/1] Loss_D: 0.6060 Loss_G: 0.0286:  70%|███████   | 70/100 [00:13<00:04,  6.32it/s][1/1] Loss_D: 0.6083 Loss_G: 0.0285:  70%|███████   | 70/100 [00:13<00:04,  6.32it/s][1/1] Loss_D: 0.6083 Loss_G: 0.0285:  71%|███████   | 71/100 [00:13<00:04,  6.64it/s][1/1] Loss_D: 0.6094 Loss_G: 0.0284:  71%|███████   | 71/100 [00:13<00:04,  6.64it/s][1/1] Loss_D: 0.6094 Loss_G: 0.0284:  72%|███████▏  | 72/100 [00:13<00:04,  6.89it/s][1/1] Loss_D: 0.6131 Loss_G: 0.0282:  72%|███████▏  | 72/100 [00:14<00:04,  6.89it/s][1/1] Loss_D: 0.6131 Loss_G: 0.0282:  73%|███████▎  | 73/100 [00:14<00:03,  7.01it/s][1/1] Loss_D: 0.6126 Loss_G: 0.0280:  73%|███████▎  | 73/100 [00:14<00:03,  7.01it/s][1/1] Loss_D: 0.6126 Loss_G: 0.0280:  74%|███████▍  | 74/100 [00:14<00:03,  6.75it/s][1/1] Loss_D: 0.6127 Loss_G: 0.0279:  74%|███████▍  | 74/100 [00:14<00:03,  6.75it/s][1/1] Loss_D: 0.6127 Loss_G: 0.0279:  75%|███████▌  | 75/100 [00:14<00:03,  7.00it/s][1/1] Loss_D: 0.6115 Loss_G: 0.0280:  75%|███████▌  | 75/100 [00:14<00:03,  7.00it/s][1/1] Loss_D: 0.6115 Loss_G: 0.0280:  76%|███████▌  | 76/100 [00:14<00:03,  7.16it/s][1/1] Loss_D: 0.6094 Loss_G: 0.0280:  76%|███████▌  | 76/100 [00:14<00:03,  7.16it/s][1/1] Loss_D: 0.6094 Loss_G: 0.0280:  77%|███████▋  | 77/100 [00:14<00:03,  7.26it/s][1/1] Loss_D: 0.6059 Loss_G: 0.0279:  77%|███████▋  | 77/100 [00:14<00:03,  7.26it/s][1/1] Loss_D: 0.6059 Loss_G: 0.0279:  78%|███████▊  | 78/100 [00:14<00:03,  6.65it/s][1/1] Loss_D: 0.6015 Loss_G: 0.0277:  78%|███████▊  | 78/100 [00:14<00:03,  6.65it/s][1/1] Loss_D: 0.6015 Loss_G: 0.0277:  79%|███████▉  | 79/100 [00:14<00:03,  6.92it/s][1/1] Loss_D: 0.5988 Loss_G: 0.0276:  79%|███████▉  | 79/100 [00:15<00:03,  6.92it/s][1/1] Loss_D: 0.5988 Loss_G: 0.0276:  80%|████████  | 80/100 [00:15<00:02,  7.11it/s][1/1] Loss_D: 0.5956 Loss_G: 0.0273:  80%|████████  | 80/100 [00:15<00:02,  7.11it/s][1/1] Loss_D: 0.5956 Loss_G: 0.0273:  81%|████████  | 81/100 [00:15<00:02,  7.23it/s][1/1] Loss_D: 0.5950 Loss_G: 0.0272:  81%|████████  | 81/100 [00:15<00:02,  7.23it/s][1/1] Loss_D: 0.5950 Loss_G: 0.0272:  82%|████████▏ | 82/100 [00:15<00:02,  6.32it/s][1/1] Loss_D: 0.5940 Loss_G: 0.0271:  82%|████████▏ | 82/100 [00:15<00:02,  6.32it/s][1/1] Loss_D: 0.5940 Loss_G: 0.0271:  83%|████████▎ | 83/100 [00:15<00:02,  6.61it/s][1/1] Loss_D: 0.5929 Loss_G: 0.0269:  83%|████████▎ | 83/100 [00:15<00:02,  6.61it/s][1/1] Loss_D: 0.5929 Loss_G: 0.0269:  84%|████████▍ | 84/100 [00:15<00:02,  6.83it/s][1/1] Loss_D: 0.5894 Loss_G: 0.0268:  84%|████████▍ | 84/100 [00:15<00:02,  6.83it/s][1/1] Loss_D: 0.5894 Loss_G: 0.0268:  85%|████████▌ | 85/100 [00:15<00:02,  7.04it/s][1/1] Loss_D: 0.5844 Loss_G: 0.0267:  85%|████████▌ | 85/100 [00:15<00:02,  7.04it/s][1/1] Loss_D: 0.5844 Loss_G: 0.0267:  86%|████████▌ | 86/100 [00:15<00:01,  7.14it/s][1/1] Loss_D: 0.5800 Loss_G: 0.0267:  86%|████████▌ | 86/100 [00:16<00:01,  7.14it/s][1/1] Loss_D: 0.5800 Loss_G: 0.0267:  87%|████████▋ | 87/100 [00:16<00:01,  7.30it/s][1/1] Loss_D: 0.5747 Loss_G: 0.0266:  87%|████████▋ | 87/100 [00:16<00:01,  7.30it/s][1/1] Loss_D: 0.5747 Loss_G: 0.0266:  88%|████████▊ | 88/100 [00:16<00:01,  7.34it/s][1/1] Loss_D: 0.5717 Loss_G: 0.0264:  88%|████████▊ | 88/100 [00:16<00:01,  7.34it/s][1/1] Loss_D: 0.5717 Loss_G: 0.0264:  89%|████████▉ | 89/100 [00:16<00:01,  7.37it/s][1/1] Loss_D: 0.5681 Loss_G: 0.0263:  89%|████████▉ | 89/100 [00:16<00:01,  7.37it/s][1/1] Loss_D: 0.5681 Loss_G: 0.0263:  90%|█████████ | 90/100 [00:16<00:01,  6.13it/s][1/1] Loss_D: 0.5641 Loss_G: 0.0264:  90%|█████████ | 90/100 [00:16<00:01,  6.13it/s][1/1] Loss_D: 0.5641 Loss_G: 0.0264:  91%|█████████ | 91/100 [00:16<00:01,  6.53it/s][1/1] Loss_D: 0.5599 Loss_G: 0.0263:  91%|█████████ | 91/100 [00:16<00:01,  6.53it/s][1/1] Loss_D: 0.5599 Loss_G: 0.0263:  92%|█████████▏| 92/100 [00:16<00:01,  6.81it/s][1/1] Loss_D: 0.5573 Loss_G: 0.0262:  92%|█████████▏| 92/100 [00:16<00:01,  6.81it/s][1/1] Loss_D: 0.5573 Loss_G: 0.0262:  93%|█████████▎| 93/100 [00:16<00:01,  6.98it/s][1/1] Loss_D: 0.5540 Loss_G: 0.0262:  93%|█████████▎| 93/100 [00:17<00:01,  6.98it/s][1/1] Loss_D: 0.5540 Loss_G: 0.0262:  94%|█████████▍| 94/100 [00:17<00:00,  7.17it/s][1/1] Loss_D: 0.5534 Loss_G: 0.0260:  94%|█████████▍| 94/100 [00:17<00:00,  7.17it/s][1/1] Loss_D: 0.5534 Loss_G: 0.0260:  95%|█████████▌| 95/100 [00:17<00:00,  7.25it/s][1/1] Loss_D: 0.5502 Loss_G: 0.0260:  95%|█████████▌| 95/100 [00:17<00:00,  7.25it/s][1/1] Loss_D: 0.5502 Loss_G: 0.0260:  96%|█████████▌| 96/100 [00:17<00:00,  7.33it/s][1/1] Loss_D: 0.5479 Loss_G: 0.0259:  96%|█████████▌| 96/100 [00:17<00:00,  7.33it/s][1/1] Loss_D: 0.5479 Loss_G: 0.0259:  97%|█████████▋| 97/100 [00:17<00:00,  6.92it/s][1/1] Loss_D: 0.5513 Loss_G: 0.0258:  97%|█████████▋| 97/100 [00:17<00:00,  6.92it/s][1/1] Loss_D: 0.5513 Loss_G: 0.0258:  98%|█████████▊| 98/100 [00:17<00:00,  5.53it/s][1/1] Loss_D: 0.5497 Loss_G: 0.0258:  98%|█████████▊| 98/100 [00:17<00:00,  5.53it/s][1/1] Loss_D: 0.5497 Loss_G: 0.0258:  99%|█████████▉| 99/100 [00:17<00:00,  6.05it/s][1/1] Loss_D: 0.5486 Loss_G: 0.0257:  99%|█████████▉| 99/100 [00:18<00:00,  6.05it/s][1/1] Loss_D: 0.5486 Loss_G: 0.0257: 100%|██████████| 100/100 [00:18<00:00,  6.45it/s][1/1] Loss_D: 0.5486 Loss_G: 0.0257: 100%|██████████| 100/100 [00:18<00:00,  5.53it/s]
+/iitjhome/m22cs058/srgan_v2/evaluate.py:8: UserWarning: Using a target size (torch.Size([1, 3, 180, 180])) that is different to the input size (torch.Size([3, 180, 180])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  mse = F.mse_loss(original_image, generated_image)
+<built-in method size of Tensor object at 0x7fbba1c0af90> <built-in method size of Tensor object at 0x7fbba1c10ea0>
+<built-in method size of Tensor object at 0x7fbba1c10d60> <built-in method size of Tensor object at 0x7fbba1bbb540>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1c10e00>
+<built-in method size of Tensor object at 0x7fbba1c10c20> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1c10900>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb040>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1c10ae0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb1d0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1c10720>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb270>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb4a0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb860>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb770>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb7c0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbba90>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb9a0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbba40>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbbb80>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb810>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb220>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb900>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbbb30>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb9f0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb590>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb270>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb4a0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb860>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb770>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb7c0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbba90>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb9a0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbba40>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbbb80>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb810>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb220>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb900>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbbb30>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb9f0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb590>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb270>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb4a0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb860>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb770>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb7c0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbba90>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb9a0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbba40>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbbb80>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb810>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb220>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb900>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbbb30>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb9f0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb590>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb270>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb4a0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb860>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb770>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb7c0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbba90>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb9a0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbba40>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbbb80>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb810>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb220>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb900>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbbb30>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb9f0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb590>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb270>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb4a0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb860>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb770>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb7c0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbba90>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb9a0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbba40>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbbb80>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb810>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb220>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb900>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbbb30>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb9f0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb590>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb270>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb4a0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb860>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb770>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb7c0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbba90>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb9a0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbba40>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbbb80>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb810>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb220>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb900>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbbb30>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb9f0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb590>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb270>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb4a0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb860>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb770>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb7c0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbba90>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb9a0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbba40>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbbb80>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb810>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb220>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb900>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbbb30>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb9f0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb590>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb270>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb4a0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb860>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb770>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb7c0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbba90>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb9a0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbba40>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbbb80>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb810>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb220>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb900>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbbb30>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb9f0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb590>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb270>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb4a0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb860>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb770>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb7c0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbba90>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb9a0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbba40>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbbb80>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb810>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb220>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb900>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbbb30>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb9f0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb590>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb270>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb4a0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb860>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb770>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb7c0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbba90>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb9a0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbba40>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbbb80>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb810>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb220>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb900>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbbb30>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb9f0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb590>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb270>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb4a0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb860>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb770>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb7c0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbba90>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb9a0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbba40>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbbb80>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb810>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb220>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb900>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbbb30>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb9f0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb590>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb270>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb4a0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb860>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb770>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb7c0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbba90>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb9a0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbba40>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbbb80>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb810>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb220>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb900>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbbb30>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb9f0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb590>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb270>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb4a0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb860>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb770>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb7c0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbba90>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb9a0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbba40>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbbb80>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb810>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb220>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb900>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbbb30>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb9f0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb590>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb270>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb4a0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb860>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb770>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb7c0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbba90>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb9a0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbba40>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbbb80>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb810>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb220>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb900>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbbb30>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb9f0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb590>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb270>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb4a0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb860>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb770>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb7c0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbba90>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb9a0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbba40>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbbb80>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb810>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb220>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb900>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbbb30>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb9f0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb590>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb270>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb4a0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb860>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb770>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb7c0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbba90>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb9a0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbba40>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbbb80>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb810>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb220>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb900>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbbb30>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb9f0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb590>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb270>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb4a0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb860>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb770>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb7c0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbba90>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb9a0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbba40>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbbb80>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb810>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb220>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb900>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbbb30>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb9f0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb590>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb270>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb4a0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb860>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb770>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb7c0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbba90>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb9a0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbba40>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbbb80>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb810>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb220>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb900>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbbb30>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb9f0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb590>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb270>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb4a0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb860>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb770>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb7c0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbba90>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb9a0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbba40>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbbb80>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb810>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb220>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb900>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbbb30>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb9f0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb590>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb270>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb4a0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb860>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb770>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb7c0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbba90>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb9a0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbba40>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbbb80>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb810>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb220>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb900>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbbb30>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb9f0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb590>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb270>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb4a0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb860>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb770>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb7c0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbba90>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb9a0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbba40>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbbb80>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb810>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb220>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb900>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbbb30>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb9f0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb590>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb270>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb4a0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb860>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb770>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb7c0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbba90>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb9a0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbba40>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbbb80>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb810>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb220>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb900>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbbb30>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb9f0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb590>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb270>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb4a0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb860>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb770>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb7c0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbba90>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb9a0>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbba40>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbbb80>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb810>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb220>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb900>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbbb30>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb9f0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb590>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb270>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb4a0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb860>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb770>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb7c0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbba90>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb9a0>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbba40>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbbb80>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb810>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb220>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb900>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbbb30>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb9f0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb590>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb270>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb4a0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb860>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb770>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb7c0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbba90>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb090>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb9a0>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbba40>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbbb80>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0a860> <built-in method size of Tensor object at 0x7fbba1bbb810>
+<built-in method size of Tensor object at 0x7fbba1c0ac20> <built-in method size of Tensor object at 0x7fbba1bbb950>
+<built-in method size of Tensor object at 0x7fbba1c0aea0> <built-in method size of Tensor object at 0x7fbba1bbb220>
+Average PSNR: 13.781470962762832

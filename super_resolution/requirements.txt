@@ -1,0 +1,7 @@
+torch
+torchvision
+matplotlib==3.5.1
+streamlit
+tqdm==4.64.0
+pillow==9.5.0
+scikit-image==0.19.2
